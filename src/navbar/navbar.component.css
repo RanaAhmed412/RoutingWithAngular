@@ -1,0 +1,30 @@
+.navbar{
+    background-color: #2C3E50;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navbar a{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.navbar-expand-lg .navbar-collapse {
+    flex-direction: column;
+    padding-left: 38%;
+}
+.navbar .btn-active{
+    background-color: #1ABC9C;
+}
+@media screen and (max-width:1085px){
+    .navbar-expand-lg .navbar-collapse {
+        padding-left: 28%;
+    }
+}
+@media screen and (max-width:992px){
+    .navbar{
+        padding-left: 14%;
+        padding-right: 14%;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        padding-left: 0;
+    }
+}

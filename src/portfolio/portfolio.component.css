@@ -1,0 +1,33 @@
+.portfolio{
+    color: #2C3E50;
+}
+.star{
+    position: relative;
+}
+.portfolio .star-l , .portfolio .star-r{
+    display: block;
+    width: 85px;
+    position: absolute;
+    top: 45%;
+    border-bottom: 4px solid #2C3E50;
+}
+.portfolio .star-l{
+    right: 39%;
+}
+.portfolio .star-r{
+    left: 39%;
+}
+.portfolio .hover{
+    cursor: pointer;
+    opacity: 0;
+    width: 87%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #1abc9ccc;
+    font-size: 102px;
+    transition: all .4s;
+}
+.portfolio .hover:hover{
+    opacity: 1;
+}

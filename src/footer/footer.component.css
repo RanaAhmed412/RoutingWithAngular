@@ -1,0 +1,21 @@
+footer{
+    color: #FFFFFF;
+    background-color: #2C3E50 ;
+}
+.upper-footer{
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+}
+.card{
+    --bs-card-border-width: none;
+    --bs-card-bg: transparent;
+}
+.lower-footer{
+    padding: 1.7%;
+    background-color: #1A252F;
+    text-align: center;
+}
+.lower-footer p{
+    margin: 0;
+}

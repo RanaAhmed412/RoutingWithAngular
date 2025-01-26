@@ -1,0 +1,28 @@
+.about{
+    height: 470px;
+    background-color: #1ABC9C;
+    padding: 8% 13%;
+}
+.star{
+    position: relative;
+}
+.about .star-l , .about .star-r{
+    display: block;
+    width: 85px;
+    position: absolute;
+    top: 45%;
+    background-color: white;
+    border-bottom: 4px solid white;
+}
+.about .star-l{
+    right: 39%;
+}
+.about .star-r{
+    left: 39%;
+}
+.card{
+    text-align: left;
+    color: white;
+    background-color: transparent;
+    border: none;
+}

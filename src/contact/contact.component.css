@@ -1,0 +1,40 @@
+.contact{
+    color: #2C3E50;
+}
+.star{
+    position: relative;
+}
+.contact .star-l , .contact .star-r{
+    display: block;
+    width: 85px;
+    position: absolute;
+    top: 45%;
+    border-bottom: 4px solid #2C3E50;
+}
+.contact .star-l{
+    right: 39%;
+}
+.contact .star-r{
+    left: 39%;
+}
+.contact .btn{
+    background-color: #1ABC9C;
+}
+.contact .contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact input{
+    border: none;
+    border-bottom: var(--bs-border-width) solid var(--bs-border-color);
+}
+.contact input:focus{
+    box-shadow: none;
+}
+.contact label{
+    color: #1ABC9C;
+}
+.mb-5{
+    width: 60%;
+}
